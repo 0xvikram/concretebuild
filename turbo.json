@@ -1,6 +1,7 @@
 {
   "$schema": "https://turborepo.dev/schema.json",
   "ui": "tui",
+  "globalEnv": ["RESEND_API_KEY", "SENDER_EMAIL", "WAITLIST_EMAIL"],
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
