@@ -1478,7 +1478,7 @@ export const PROPERTY_ESCROW_ABI = [
 
 ### Phase 4 — Integration & Testing (Weeks 8–10)
 
-- [ ] Full E2E test on testnet:
+- [ ] Full E2E test on testnet:my main folder i s
   - [ ] List property → moderate → approve → deploy contract → activate
   - [ ] Investor invests → CBLD reward issued
   - [ ] Multiple investors → distribution → each claims

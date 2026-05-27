@@ -83,14 +83,14 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <a href="#waitlist" className="w-full sm:w-auto">
+          <a href="/onboarding" className="w-full sm:w-auto">
             <button className="w-full flex items-center justify-center gap-2 px-8 py-4 rounded-full font-bold text-lg bg-white text-black hover:bg-zinc-200 shadow-[0_0_40px_rgba(255,255,255,0.2)] hover:shadow-[0_0_60px_rgba(255,255,255,0.4)] transition-all">
-              Join the Waitlist <ArrowRight className="w-5 h-5" />
+              List Property <ArrowRight className="w-5 h-5" />
             </button>
           </a>
-          <a href="https://cbld.as.me/schedule/4e1f8818/appointment/77973824/calendar/8272571?appointmentTypeIds%5B%5D=77973824" target="_blank" rel="noreferrer" className="w-full sm:w-auto">
+          <a href="/marketplace" className="w-full sm:w-auto">
             <button className="w-full flex items-center justify-center gap-2 px-8 py-4 rounded-full font-bold text-lg bg-indigo-600/20 border border-indigo-500/50 hover:bg-indigo-600/30 text-white hover:border-indigo-400 transition-all group backdrop-blur-md">
-              Book a Consultation
+              Explore Marketplace
             </button>
           </a>
         </motion.div>
